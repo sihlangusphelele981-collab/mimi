@@ -1,0 +1,49 @@
+/* Minimal styles for Love Vault */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #ffe6f0 0%, #fff 100%);
+    color: #333;
+}
+.hidden {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+
+.personalQuestion {
+    margin-top: 24px;
+    padding: 22px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 215, 0, 0.18);
+    border-radius: 24px;
+}
+
+.personalQuestion h2 {
+    margin-bottom: 14px;
+    color: #d18d00;
+}
+
+.personalQuestion p {
+    margin-bottom: 18px;
+    color: #333;
+    font-size: 16px;
+}
+
+.personalQuestion input {
+    width: 100%;
+    max-width: 420px;
+    padding: 16px 18px;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #fff;
+    color: #222;
+    outline: none;
+    font-size: 16px;
+}
+
+.personalQuestion input::placeholder {
+    color: #999;
+}

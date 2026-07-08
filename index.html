@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Vault ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Intro Screen -->
+<section id="intro">
+
+    <h1>❤️ LOVE VAULT ❤️</h1>
+
+    <p class="quote">
+        Every day holds another piece of my heart.
+    </p>
+
+    <div class="security">
+
+        <h3>Security Level</h3>
+
+        <div class="bar">
+            <div class="progress"></div>
+        </div>
+
+    </div>
+
+    <div class="mission">
+
+        <h2>🕵 Secret Mission</h2>
+
+        <p id="missionHint">
+            Loading today's mission...
+        </p>
+
+    </div>
+
+    <div class="countdown">
+
+        <h2>⏳ Next Unlock</h2>
+
+        <div id="timer">
+            Loading...
+        </div>
+
+        <p class="favorite-color">favourite colour?
+            
+        </p>
+    </div>
+
+    <div class="passwordBox">
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Today's Password">
+
+        <button id="unlockBtn">
+            Unlock Vault ❤️
+        </button>
+
+    </div>
+
+</section>
+
+<!-- Vault Animation -->
+<section id="vaultScene" class="hidden">
+
+    <div class="vault">
+
+        <div id="vaultDoor">
+
+            🔒
+
+        </div>
+
+    </div>
+
+    <p class="openingText">
+
+        Unlocking...
+
+    </p>
+
+</section>
+
+<!-- Love Letter -->
+<section id="loveLetter" class="hidden">
+
+    <h1 id="dayTitle"></h1>
+
+    <div class="letter">
+
+        <p id="letterText"></p>
+
+    </div>
+
+    <div class="voiceSection">
+
+        <h2>🎙 Voice Note</h2>
+
+        <audio
+            id="voicePlayer"
+            controls>
+
+            <source src="" type="audio/mpeg">
+
+            Your browser doesn't support audio.
+
+        </audio>
+
+    </div>
+
+    <div class="musicSection">
+
+        <h2>🎵 Today's Song</h2>
+
+        <p id="songName"></p>
+
+        <button id="spotifyButton">
+
+            Open in Spotify
+
+        </button>
+
+    </div>
+
+    <div class="footerMessage">
+
+        ❤️ You've unlocked another piece of my heart ❤️
+
+    </div>
+
+</section>
+
+<!-- Ending Screen -->
+<section id="finished" class="hidden">
+
+    <h1>❤️ Chapter Complete ❤️</h1>
+
+    <p>
+
+        Thank you for unlocking another week of my heart.
+
+    </p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
